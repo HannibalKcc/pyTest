@@ -15,3 +15,6 @@ arr.index(1)  # 返回第一个匹配的下标
 print(arr[1: 5], arr[2:4:1])
 print(arr[:: -1], arr[-2:: -1])
 
+# 列表生成式
+arrGen = [i + 1 for i in range(1, 10) if i > 3]
+print(arrGen)
