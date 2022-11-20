@@ -5,3 +5,11 @@ if x == 5:
     pass
 else:
     pass
+
+
+def foo():
+    pass
+
+
+class A:
+    pass
